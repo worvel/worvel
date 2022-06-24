@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dac34a14dc1fd0c4e6d72316fdf5cb7f",
+    "packages": [
+        {
+            "name": "worvel/core",
+            "version": "0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/worvel/core.git",
+                "reference": "ba1f63e161e5cd3881f4031552cb47283b4fcc02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/worvel/core/zipball/ba1f63e161e5cd3881f4031552cb47283b4fcc02",
+                "reference": "ba1f63e161e5cd3881f4031552cb47283b4fcc02",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "config/functions.php"
+                ],
+                "psr-4": {
+                    "Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fahad Mayow",
+                    "email": "fahadmayow@gmail.com"
+                }
+            ],
+            "description": "The core of worvel framework",
+            "keywords": [
+                "framework",
+                "wordpess",
+                "worvel"
+            ],
+            "support": {
+                "issues": "https://github.com/worvel/core/issues",
+                "source": "https://github.com/worvel/core/tree/0.5"
+            },
+            "time": "2022-06-24T13:43:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

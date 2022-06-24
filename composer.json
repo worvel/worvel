@@ -1,0 +1,22 @@
+{
+  "name": "worvel/worvel",
+  "type": "project",
+  "description": "The Worvel Framework.",
+  "keywords": [
+    "worvel",
+    "framework",
+    "wordpress",
+    "theme"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Theme\\": "theme/"
+    },
+    "files": [
+      "config/functions.php"
+    ]
+  },
+  "require": {
+    "worvel/core": "^0.5.0"
+  }
+}

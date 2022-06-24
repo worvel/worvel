@@ -1,0 +1,6 @@
+Options -Indexes
+RedirectMatch 404 \.([^css]|[^js]|[^jpg]|[^png]|[^jpeg]|[^gif]|[^svg]+)$
+
+<Files ~ "worvel">
+RedirectMatch 404 $
+</Files>

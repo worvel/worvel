@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu li {
+  @apply float-left;
+}
+.menu li a {
+  @apply p-[12px] block font-semibold text-base;
+}
