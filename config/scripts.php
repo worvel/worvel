@@ -11,6 +11,6 @@
  */
 
 return [
-    "style" => style("main-css", asset("css/main.css")),
-    "admin_style" => style("main-css", asset("css/main.css")),
+    "styles" => [style("main-css", asset("css/main.css"))],
+    "admin_styles" => [style("main-css", asset("css/main.css"))],
 ];
